@@ -112,7 +112,8 @@ var UINotifications = function() {"use strict";
 		$(".basic-message").on("click", function(e) {
 			swal({
 				title: "Here's a message!",
-				confirmButtonColor: "#007AFF"
+				confirmButtonColor: "#29ab87
+"
 			});
 			e.preventDefault
 		});
@@ -121,7 +122,8 @@ var UINotifications = function() {"use strict";
 			swal({
 				title: "Here's a message!",
 				text: "It's pretty, isn't it?",
-				confirmButtonColor: "#007AFF"
+				confirmButtonColor: "#29ab87
+"
 			});
 			e.preventDefault
 		});
@@ -131,7 +133,8 @@ var UINotifications = function() {"use strict";
 				title: "Good job!",
 				text: "You clicked the button!",
 				type: "success",
-				confirmButtonColor: "#007AFF"
+				confirmButtonColor: "#29ab87
+"
 			});
 			e.preventDefault
 		});
@@ -142,7 +145,8 @@ var UINotifications = function() {"use strict";
 				text: "You will not be able to recover this imaginary file!",
 				type: "warning",
 				showCancelButton: true,
-				confirmButtonColor: "#007AFF",
+				confirmButtonColor: "#29ab87
+",
 				confirmButtonText: "Yes, delete it!",
 				closeOnConfirm: false
 			}, function() {
@@ -177,7 +181,8 @@ var UINotifications = function() {"use strict";
 			swal({
 				title: "Sweet!",
 				text: "Here's a custom image.",
-				confirmButtonColor: "#007AFF",
+				confirmButtonColor: "#29ab87
+",
 				imageUrl: "http://i.imgur.com/4NZ6uLY.jpg"
 			});
 

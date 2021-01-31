@@ -3,17 +3,20 @@
 /* ---------------------------------------------------------------------- */
 @import "modules/variables";
 $app-background: #FAFAFA;
-$elements-color: #007aff;
+$elements-color: #29ab87
+;
 //NAV HEADER COLORS
 $header-color: #ffffff;
 $headerBorder-color: #c8c7cc;
 $headerText-color: #777;
-$headerElements-color: #007aff;
+$headerElements-color: #29ab87
+;
 //NAV COLLAPSE COLORS
 $collapse-color: #ffffff;
 $collapseBorder-color: $headerBorder-color;
 $collapseText-color: #777;
-$collapseElements-color: #007aff;
+$collapseElements-color: #29ab87
+;
 $collapseShadow: none;
 $menuMobile-color: #ffffff;
 $menuMobileBorder-color: $headerBorder-color;
@@ -26,14 +29,16 @@ $sidebarBorder-width: '1px';
 $offSidebar-color: $white;
 $offSidebarBorder-color: $headerBorder-color;
 $offSidebarText-color: #777;
-$offSidebarElements-color: #007aff;
+$offSidebarElements-color: #29ab87
+;
 //MAIN NAVIGATION COLORS
 $nav-color: $white;
 $navBorder-color: $headerBorder-color;
 $navText-color: #777;
 $navActive-color: $elements-color;
 $navHover-color: darken($nav-color, 5%);
-$navElements-color: #007aff;
+$navElements-color: #29ab87
+;
 //SCROLLBAR COLORS
 $scrollBar-color: #999;
 
@@ -288,7 +293,8 @@ header {
 
                             .fa-stack {
                                 .fa-square {
-                                    color: #007aff !important;
+                                    color: #29ab87
+ !important;
                                 }
                             }
                         }

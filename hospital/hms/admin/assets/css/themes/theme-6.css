@@ -177,7 +177,8 @@ header .dropdown-off-sidebar {
   color: #ffffff !important;
 }
 #sidebar nav > ul > li.active > a .item-media .fa-stack .fa-square {
-  color: #007aff !important;
+  color: #29ab87
+ !important;
 }
 #sidebar nav > ul > li.active .sub-menu {
   background: #111b23;
